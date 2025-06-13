@@ -96,7 +96,7 @@ li a:hover:not(.active) {
 
 .hero-content{
 
-  background: linear-gradient(rgba(255, 191, 191, 0.2), rgba(192, 235, 225, 0.4)), url(./asessts/avengers\ ki.webp);
+  background: linear-gradient(rgba(255, 191, 191, 0.2), rgba(192, 235, 225, 0.4)), url(./asessts/avengers-hero-img.webp);
   background-repeat: no-repeat;
   background-size: stretch;
   height: 15vh;
