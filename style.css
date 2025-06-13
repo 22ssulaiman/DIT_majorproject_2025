@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  list-style: none;
+}
+
+h1 {
+
+    font-size: 2em;
+}
+
+.hero-header h1 a {
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.8s;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+
+
+.hero-header h1 a:hover {
+  background-color: yellow;
+  animation: myheader 5s infinite;
+  
+}
+
+@keyframes myheader {
+  0% { transform: translateY(0);}
+  50% { transform: translateY(100px);}
+  100% { transform: translateY(0);}
+}
+
+p {
+    color: rgb(15, 75, 67);    /*text colour webpage */
+    font-style: decorative;     
+    font-size: 1em;
+    font-size: 1.15em;   
+}
+
+
+li a:hover:not(.active) {
+    background-color: rgb(125, 158, 158);
+    transition: background-color 0.8s;
+    border-radius: 10px;
+}
+.active {
+    background-color:black rgba(0,0,0,0.2)
+}
+
+
+
+.hero-header {
+
+  background-color: skyblue;
+  height: 50%;
+  margin: 0px 0px 0px 0px;
+}
+
+.hero-tag  {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.hero ul{
+
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.2)#4a4747;
+  
+
+}
+
+.hero ul li {
+  margin-bottom: 50px;
+}
+
+.hero ul li a {
+  font-size: 19px;
+  padding: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.hero-content{
+
+  background: linear-gradient(rgba(255, 191, 191, 0.2), rgba(192, 235, 225, 0.4)), url(./asessts/avengers\ ki.webp);
+  background-repeat: no-repeat;
+  background-size: stretch;
+  height: 15vh;
+  color: rgb(38, 100, 102);
+  text-align: fixed;
+}
+
+.hero-nav h3 ul li a {
+
+  color: rgb(60, 87, 87);
+}
+
+.hero-tag {
+
+  text-align: right;
+}
+
+.one {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.footer-text{
+  background-color:skyblue ;
+  text-align: center;
+  position: relative;
+  margin-top: 25%;
+  height: 70px;
+  padding-top: 25px;
+  bottom: 0;
+
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  height: 0dvh;
+
+}
