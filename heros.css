@@ -1,0 +1,21 @@
+.hero-content{
+background-color: skyblue;
+height: 50%;
+margin: 0px 0px 0px 0px;
+}
+  
+.footer-text{
+background-color:skyblue ;
+text-align: center;
+position: relative;
+margin-top: 25%;
+height: 70px;
+padding-top: 25px;
+bottom: 0;
+}
+  
+.footer {
+width: 100%;
+bottom: 0;
+margin-bottom: 0px;  
+}

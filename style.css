@@ -24,15 +24,8 @@ h1 {
 
 .hero-header h1 a:hover {
   background-color: yellow;
-  animation: myheader 5s infinite;
-  
 }
 
-@keyframes myheader {
-  0% { transform: translateY(0);}
-  50% { transform: translateY(100px);}
-  100% { transform: translateY(0);}
-}
 
 p {
     color: rgb(15, 75, 67);    /*text colour webpage */
@@ -126,13 +119,14 @@ li a:hover:not(.active) {
   margin-top: 25%;
   height: 70px;
   padding-top: 25px;
-  bottom: 0;
+
 
 }
 
 footer {
   width: 100%;
-  bottom: 0;
-  height: 0dvh;
+  bottom: 0%;
+  margin-bottom: 0px;
+  
 
 }
