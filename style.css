@@ -23,7 +23,7 @@ h1 {
 
 
 .hero-header h1 a:hover {
-  background-color: yellow;
+  background-color: rgb(19, 164, 208);
 }
 
 
@@ -45,8 +45,12 @@ li a:hover:not(.active) {
     background-color:black rgba(0,0,0,0.2)
 }
 
-
-
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
 .hero-header {
 
   background-color: skyblue;
@@ -94,12 +98,19 @@ li a:hover:not(.active) {
   background: linear-gradient(rgba(255, 191, 191, 0.2), rgba(192, 235, 225, 0.4)), url(./asessts/avengers-hero-img.webp);
   background-repeat: no-repeat;
   background-size: stretch;
-  height: 15vh;
+  height: 25vh;
   color: rgb(38, 100, 102);
   text-align: fixed;
 }
 
-.hero-nav h3 ul li a {
+.hero-nav {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.hero-nav ul li a {
 
   color: rgb(60, 87, 87);
 }
@@ -111,7 +122,12 @@ li a:hover:not(.active) {
 
 .one {
   max-width: 85%;
+  margin: 25px auto;
+}
+.two {
+  max-width: 85%;
   margin: 0 auto;
+  
 }
 
 .footer-text{
@@ -129,5 +145,5 @@ footer {
   width: 100%;
   bottom: 0%;
   margin-bottom: 0px;  
-  animation:a
+  animation:alternate 2s infinite;
 }

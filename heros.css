@@ -4,7 +4,7 @@
 
 .hero-content{
 background-color: skyblue;
-height: 100px;
+height: 115px;
 margin-bottom: 30px;
 padding-top: 20px;
 
@@ -35,4 +35,9 @@ text-align: center;
 
 H2 {
 text-align: center;
+}
+
+h3 {
+text-align: center;
+font-style: normal;
 }
