@@ -61,7 +61,7 @@ body {
 .hero-tag  {
   text-align: right;
   margin-bottom: 15px;
-  
+  -ms-text-size-adjust: auto;
 }
 
 .hero h1 {
@@ -95,10 +95,11 @@ body {
 
 .hero-content{
 
-  background: linear-gradient(rgba(255, 191, 191, 0.2), rgba(192, 235, 225, 0.4)), url(./asessts/avengers-hero-img.webp);
+  background: linear-gradient(rgba(255, 191, 191, 0.2), rgba(192, 235, 225, 0.4)), url(./asessts/avengers\ logo.jfif);
   background-repeat: no-repeat;
-  background-size: stretch;
-  height: 25vh;
+  background-size: 210px;
+  background-position: center ;
+  height: 20vh;
   color: rgb(38, 100, 102);
   text-align: fixed;
 }
