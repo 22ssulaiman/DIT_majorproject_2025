@@ -48,10 +48,18 @@ font-style: normal;
     text-decoration: none;
     list-style: none;
     color: #4a4747;
+
   }
+
+ .hero .hero-content .hero-nav ul li a.active {
+    background-color: pink;
+ }
+  
 .hero .hero-content h1 a {
     text-decoration: none;
     color:black;
+    text-size-adjust: 100%;
+
 }
   
   .hero-nav {
@@ -82,4 +90,8 @@ li a:hover:not(.active) {
     transition: background-color 0.8s;
     border-radius: 10px;
     transition-duration: 1.3s;
+}
+
+.hero-content h1 a:hover {
+  background-color: rgb(8, 90, 114);
 }
