@@ -148,3 +148,10 @@ footer {
   margin-bottom: 0px;  
   animation:alternate 2s infinite;
 }
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
