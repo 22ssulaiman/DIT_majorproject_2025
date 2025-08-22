@@ -32,6 +32,7 @@ p {
     font-style: decorative;     
     font-size: 1em;
     font-size: 1.15em;   
+    font-family:"Orbitron";
 }
 
 
@@ -66,7 +67,7 @@ body {
 
 .hero h1 {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .hero ul{
@@ -154,4 +155,5 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
+ 
 }
