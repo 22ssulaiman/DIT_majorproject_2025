@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+
+
 .hero-content{
 background-color: skyblue;
 height: 150px;
@@ -55,7 +57,7 @@ margin-bottom: 15px;
   }
 
  .hero .hero-content .hero-nav ul li a.active {
-    background-color: pink;
+    background-color: rgb(31, 185, 212);
  }
   
 .hero .hero-content h1 a {
@@ -100,4 +102,12 @@ li a:hover:not(.active) {
   transition: color 0.9s;
   border-radius: 10px;
   transform: scale(1.1);
+}
+
+p {
+  font-size: 22px;
+  max-width: 85%;
+  margin: 10px auto;
+  text-align: center;
+  font-family:"Orbitron";
 }
